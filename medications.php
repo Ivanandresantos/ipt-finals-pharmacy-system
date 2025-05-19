@@ -268,7 +268,7 @@ unset($pdo);
                         <div class="row mb-3">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Price ($)</label>
+                                    <label>Price (₱)</label>
                                     <input type="text" name="price" class="form-control <?php echo (!empty($price_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $price; ?>">
                                     <span class="invalid-feedback"><?php echo $price_err;?></span>
                                 </div>
